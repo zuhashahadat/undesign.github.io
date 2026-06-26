@@ -52,14 +52,12 @@
 .full-width-container {
     width: 100%;
     background-color: rgba(255, 0, 0, 0);
-    border: 1px solid #00000000;
-    .full-width-container {
+    border: 1px solid transparent;
     padding-left: 15px;
     padding-right: 15px;
-     margin-bottom: 20px;
-    box-shadow: 0 0 10px #00ff0000;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px transparent;
     box-sizing: border-box;
-}
 
 }
 .site-title-container {
@@ -114,7 +112,7 @@
 .overlay-note {
     top: 36.8%;
     left: 73.5%;
-    width: 30%;
+    width: 25%;
 }
 
 /* Make sure images scale correctly */

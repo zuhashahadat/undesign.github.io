@@ -50,7 +50,7 @@
     margin-bottom: 15px; /* Spacing between main boxes */
 }
 .full-width-container {
-    width: 10%;
+    width: 100%;
     background-color: rgba(255, 0, 0, 0);
     border: 1px solid #000000;
     .full-width-container {

@@ -60,6 +60,13 @@
     box-sizing: border-box;
 
 }
+/* Shift full‑width container captions slightly right */
+.full-width-container h2,
+.full-width-container p {
+    text-align: left;     /* keep left‑justified */
+    margin-left: 20px;    /* nudge to the right */
+}
+
 .site-title-container {
     width: 100%;
     background-color: rgba(255, 0, 0, 0);

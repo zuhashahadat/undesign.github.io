@@ -37,7 +37,7 @@
 /* Styles for the inner boxes within sidebars */
 .sidebar-box {
     background-color: rgba(0, 0, 0, 0); /* transparent background for the boxes */
-    border: 1px solid #000000; /* thin black border for the boxes */
+    border: 0px solid #000000; /* thin black border for the boxes */
     padding: 10px;
     margin-bottom: 10px; /* Spacing between the boxes */
 }
@@ -45,7 +45,7 @@
 /* Styles for the inner boxes within the main content */
 .main-content-box {
     background-color: rgba(0, 0, 0, 0); /* transparent background for main boxes */
-    border: 1px solid #000000; /* thin black border for main boxes */
+    border: 0px solid #000000; /* thin black border for main boxes */
     padding: 15px;
     margin-bottom: 15px; /* Spacing between main boxes */
 }

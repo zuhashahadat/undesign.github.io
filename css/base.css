@@ -2,8 +2,8 @@ body {
     font-family: 'Press Start 2P', cursive; /* Retro pixel font with a fallback */
     margin: 0;
     padding: 0;
-    background-color: #2bd994; /* Black background for the Matrix look */
-    color: #d2218e; /* Bright green text */
+    background-color: #00000000; /* white bg */
+    color: #000000; /* black text */
     line-height: 1.4; /* Improve readability */
     /* text-shadow: 0 0 5px #00ff00; /* Removed the green text glow */
     overflow-x: hidden; /* Prevent horizontal scrollbar */
@@ -18,7 +18,7 @@ html {
 }
 
 a {
-    color: #00cc00; /* Slightly darker green for links */
+    color: #000000ae; /* grey for links */
     text-decoration: none;
 }
 

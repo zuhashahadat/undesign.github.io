@@ -6,7 +6,7 @@
     width: 100%; /* Ensure it takes 100% of the viewport width */
     margin: 0; /* Remove auto margins that were centering it */
     padding: 15px; /* Keep some padding around the content */
-    grid-template-columns: minmax(150px, 20%) 1fr minmax(150px, 20%); /* Adjust sidebar widths as percentages or fixed */
+    grid-template-columns: 1fr 1fr 1fr; /* Adjust sidebar widths as percentages or fixed */
     gap: 15px;
     background-color: rgba(0, 0, 0, 0.8); /* Slightly transparent background for the container */
     border: 2px solid #00ff00; /* Green border */

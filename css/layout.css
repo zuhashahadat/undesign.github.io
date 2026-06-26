@@ -36,41 +36,41 @@
 
 /* Styles for the inner boxes within sidebars */
 .sidebar-box {
-    background-color: rgba(0, 0, 0, 0.8); /* Dark background for the boxes */
-    border: 1px solid #00cc00; /* Green border for the boxes */
+    background-color: rgba(0, 0, 0, 0); /* transparent background for the boxes */
+    border: 0px solid #00cc00; /* no border for the boxes */
     padding: 10px;
     margin-bottom: 10px; /* Spacing between the boxes */
 }
 
 /* Styles for the inner boxes within the main content */
 .main-content-box {
-    background-color: rgba(0, 0, 0, 0.7); /* Slightly lighter background for main boxes */
-    border: 1px dashed #00cc00; /* Dashed green border for main boxes */
+    background-color: rgba(0, 0, 0, 0); /* transparent background for main boxes */
+    border: 0px solid #00cc00; /* no border for main boxes */
     padding: 15px;
     margin-bottom: 15px; /* Spacing between main boxes */
 }
 .full-width-container {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.85);
-    border: 2px solid #00ff00;
+    background-color: rgba(0, 0, 0, 0); /* transparent background */
+    border: 0px solid #00ff00; /* no border */
     padding: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 0 10px #00ff00;
+    box-shadow: 0 0 10px #00ff0000; /* no glow */
     box-sizing: border-box;
 }
 .site-title-container {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
-    border-bottom: 2px solid #00ff00;
+    background-color: rgba(255, 0, 0, 0);
+    border-bottom: 0px solid #00ff00;
     padding: 25px 20px 15px;
     text-align: center;
-    box-shadow: 0 0 12px #00ff00;
+    box-shadow: 0 0 12px #00ff0000; /* no glow */
 }
 
 .site-title {
     margin: 0;
     font-size: 3rem;
-    color: #00ff00;
-    text-shadow: 0 0 10px #00ff00;
+    color: #000000;
+    text-shadow: 0 0 10px #00ff0000;
     font-family: 'VT323', monospace;
 }

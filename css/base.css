@@ -24,6 +24,15 @@ body {
 h1, h2, h3, .site-title {
     font-family: 'Space Grotesk', sans-serif;
 }
+.site-subtitle {
+    margin: 0;
+    margin-top: 8px;
+    font-size: 1.2rem;
+    color: #444;
+    font-family: 'Inter', sans-serif; /* clean-tech body font */
+    letter-spacing: 0.5px;
+    opacity: 0.85;
+}
 
 nav, .overlay-note, .overlay-polaroid, code, .sidebar-box {
     font-family: 'Space Mono', monospace;

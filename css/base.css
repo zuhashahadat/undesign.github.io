@@ -65,9 +65,9 @@ a:hover {
 
 /* Image styling + hover zoom */
 .sidebar-image {
-    width: 100%;
+    width: 80%;
     height: auto;
-    border: 1px solid #000000;
+    border: 0px solid #000000;
     border-radius: 4px;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }

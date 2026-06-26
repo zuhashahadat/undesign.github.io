@@ -57,3 +57,23 @@ a:hover {
     font-family: 'Space Mono', monospace !important;
     color: #000000 !important;
 }
+/* Clickable sidebar image */
+.sidebar-image-link {
+    display: block;
+    width: 100%;
+}
+
+/* Image styling + hover zoom */
+.sidebar-image {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover effect */
+.sidebar-image:hover {
+    transform: scale(1.08);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}

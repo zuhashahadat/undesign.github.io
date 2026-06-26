@@ -121,3 +121,9 @@
     height: auto;
     display: block;
 }
+.overlay {
+    line-height: 0;
+    font-size: 0;
+    text-decoration: none;
+    outline: none;
+}

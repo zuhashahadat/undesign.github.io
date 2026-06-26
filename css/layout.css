@@ -118,9 +118,9 @@
 }
 
 /* Make sure images scale correctly */
-.overlay img {
-    width: 100%;
-    height: auto;
+.overlay {
+    position: absolute;
     display: block;
+    line-height: 0;
+    font-size: 0;
 }
-

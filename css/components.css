@@ -1,6 +1,6 @@
 /* Basic styling for links within components */
 .sidebar-content a {
-    color: #00cc00;
+    color: #000000;
 }
 
 .sidebar-content a:hover {
@@ -9,7 +9,7 @@
 
 /* Style for the footer content */
 .footer-content a {
-    color: #00cc00;
+    color: #000000;
 }
 
 .footer-content a:hover {

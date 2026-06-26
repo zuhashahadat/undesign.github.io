@@ -9,26 +9,26 @@
     padding: 15px; /* Keep some padding around the content */
     grid-template-columns: 1fr 1fr 1fr; /* Adjust sidebar widths as percentages or fixed */
     gap: 15px;
-    background-color: rgba(0, 0, 0, 0.8); /* Slightly transparent background for the container */
-    border: 2px solid #00ff00; /* Green border */
-    box-shadow: 0 0 10px #00ff00; /* Initial subtle glow */
+    background-color: rgba(0, 0, 0, 0); /* transparent background for the container */
+    border: 0px solid #00ff00; /* no border */
+    box-shadow: 0 0 10px #00ff0000; /* no glow */
     box-sizing: border-box; /* Ensure padding and border are included in the 100% width */
     min-height: 100vh; /* Optional: Make the container at least the height of the viewport */
 }
 
 /* Style for the main content area */
 .main-content {
-    background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent background */
+    background-color: rgba(0, 0, 0, 0); /* transparent background */
     padding: 15px;
-    border: 1px solid #00cc00; /* Darker green border */
+    border: 0px solid #00cc00; /*no border */
 }
 
 /* Basic styling for the sidebars */
 #left-sidebar-placeholder,
 #right-sidebar-placeholder {
-    background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent background */
+    background-color: rgba(0, 0, 0, 0); /* transparent background */
     padding: 10px;
-    border: 1px solid #00cc00; /* Darker green border */
+    border: 0px solid #00cc00; /* no border */
 }
 
 
@@ -57,4 +57,20 @@
     margin-bottom: 20px;
     box-shadow: 0 0 10px #00ff00;
     box-sizing: border-box;
+}
+.site-title-container {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-bottom: 2px solid #00ff00;
+    padding: 25px 20px 15px;
+    text-align: center;
+    box-shadow: 0 0 12px #00ff00;
+}
+
+.site-title {
+    margin: 0;
+    font-size: 3rem;
+    color: #00ff00;
+    text-shadow: 0 0 10px #00ff00;
+    font-family: 'VT323', monospace;
 }

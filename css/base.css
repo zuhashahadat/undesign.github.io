@@ -16,6 +16,18 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+/* Clean‑Tech Font Combo A */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, .site-title {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+nav, .overlay-note, .overlay-polaroid, code, .sidebar-box {
+    font-family: 'Space Mono', monospace;
+}
 
 a {
     color: #000000ae; /* grey for links */

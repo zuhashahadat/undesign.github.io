@@ -3,7 +3,6 @@
     background-color: rgba(0, 0, 0, 0); /* background for nav */
     padding: 10px;
     text-align: center;
-    border-bottom: 2px solid #000000; /* black separator */
     margin-bottom: 15px;
 }
 #nav-placeholder nav {

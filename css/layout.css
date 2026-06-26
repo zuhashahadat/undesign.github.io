@@ -65,7 +65,7 @@
 .site-title-container {
     width: 100%;
     background-color: rgba(255, 0, 0, 0);
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #00000000;
     padding: 25px 20px 15px;
     text-align: center;
     box-shadow: 0 0 12px #00ff0000; /* no glow */

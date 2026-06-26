@@ -50,10 +50,10 @@
     margin-bottom: 15px; /* Spacing between main boxes */
 }
 .full-width-container {
-    width: 100%;
+    width: 80%;
     background-color: rgba(255, 0, 0, 0);
     border: 2px solid #000000;
-    padding: 400px; /* ← add left/right padding */
+    padding: 40px; /* ← add left/right padding */
     margin-bottom: 20px;
     box-shadow: 0 0 10px #00ff0000;
     box-sizing: border-box;

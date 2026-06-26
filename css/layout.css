@@ -98,14 +98,29 @@
     display: block;
 }
 
+/* Shared overlay behavior */
 .overlay {
     position: absolute;
-    cursor: pointer;
     display: block;
+}
+
+/* Polaroid position + size */
+.overlay-polaroid {
+    top: 18%;
+    left: 22%;
+    width: 14%;
+}
+
+/* Sticky note position + size */
+.overlay-note {
+    top: 40%;
+    left: 55%;
+    width: 16%;
 }
 
 .overlay img {
     width: 100%;
-    height: 100%;
+    height: auto;
     display: block;
 }
+

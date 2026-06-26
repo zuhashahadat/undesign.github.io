@@ -1,10 +1,10 @@
 /* Basic styling for the footer */
 #footer-placeholder {
-    background-color: rgba(0, 0, 0, 0.9); /* Darker background for footer */
+    background-color: rgba(0, 0, 0, 0); /* transparent background for footer */
     color: #000000;
     text-align: center;
     padding: 10px;
-    border-top: 0cqmax solid #00ff00; /* Green separator */
+    border-top: 1cqmax solid #000000; /* separator */
     margin-top: 15px;
     /* position: sticky; <--- REMOVE THIS LINE */
     bottom: 0; /* This will now just anchor it to the bottom of the normal flow */
@@ -17,7 +17,7 @@
 }
 
 .footer-content a {
-    color: #00cc00;
+    color: #000000;
 }
 
 .footer-content a:hover {

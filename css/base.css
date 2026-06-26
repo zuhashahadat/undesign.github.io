@@ -76,3 +76,8 @@ a:hover {
 .sidebar-image:hover {
     transform: scale(1.08);
 }
+/* Center text inside all column boxes */
+.sidebar-box,
+.main-content-box {
+    text-align: center;
+}

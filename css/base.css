@@ -81,3 +81,33 @@ a:hover {
 .main-content-box {
     text-align: center;
 }
+/* Caption styling */
+.image-caption {
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem;
+    margin: 0 0 10px 0;
+    text-align: center;
+    color: #000000;
+}
+
+/* Make the image clickable */
+.middle-image-link {
+    display: block;
+    width: 100%;
+}
+
+/* Image styling + hover zoom */
+.middle-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 0px solid #000000;
+    border-radius: 4px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover effect */
+.middle-image:hover {
+    transform: scale(1.08);
+}

@@ -20,7 +20,7 @@
 .main-content {
     background-color: rgba(0, 0, 0, 0); /* transparent background */
     padding: 15px;
-    border: 0px solid #00cc00; /*no border */
+    border: 0px solid #000000; /*no border */
 }
 
 /* Basic styling for the sidebars */
@@ -37,7 +37,7 @@
 /* Styles for the inner boxes within sidebars */
 .sidebar-box {
     background-color: rgba(0, 0, 0, 0); /* transparent background for the boxes */
-    border: 0px solid #00cc00; /* no border for the boxes */
+    border: 1px solid #000000; /* thin black border for the boxes */
     padding: 10px;
     margin-bottom: 10px; /* Spacing between the boxes */
 }
@@ -45,14 +45,14 @@
 /* Styles for the inner boxes within the main content */
 .main-content-box {
     background-color: rgba(0, 0, 0, 0); /* transparent background for main boxes */
-    border: 0px solid #00cc00; /* no border for main boxes */
+    border: 1px solid #000000; /* thin black border for main boxes */
     padding: 15px;
     margin-bottom: 15px; /* Spacing between main boxes */
 }
 .full-width-container {
     width: 100%;
     background-color: rgba(0, 0, 0, 0); /* transparent background */
-    border: 0px solid #00ff00; /* no border */
+    border: 1px solid #000000; /* thin black border */
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 0 10px #00ff0000; /* no glow */
@@ -61,7 +61,7 @@
 .site-title-container {
     width: 100%;
     background-color: rgba(255, 0, 0, 0);
-    border-bottom: 0px solid #00ff00;
+    border-bottom: 1px solid #000000;
     padding: 25px 20px 15px;
     text-align: center;
     box-shadow: 0 0 12px #00ff0000; /* no glow */

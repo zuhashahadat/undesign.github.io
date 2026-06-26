@@ -3,10 +3,14 @@
     background-color: rgba(0, 0, 0, 0); /* background for nav */
     padding: 10px;
     text-align: center;
-    border-bottom: 2 px solid #000000; /* black separator */
+    border-bottom: 2px solid #000000; /* black separator */
     margin-bottom: 15px;
 }
-
+#nav-placeholder nav {
+    border-bottom: 2px solid #000000; /* black separator */
+    box-shadow: 0 0 8px #00ff0000;      /* optional glow */
+    padding-bottom: 8px;              /* spacing above border */
+}
 #nav-placeholder nav ul {
     list-style: none;
     padding: 0;

@@ -108,14 +108,14 @@
 .overlay-polaroid {
     top: 18%;
     left: 22%;
-    width: 14%;
+    width: 34%;
 }
 
 /* Sticky note position + size */
 .overlay-note {
     top: 40%;
-    left: 55%;
-    width: 16%;
+    left: 35%;
+    width: 26%;
 }
 
 .overlay img {

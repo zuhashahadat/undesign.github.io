@@ -19,7 +19,7 @@
 /* Style for the main content area */
 .main-content {
     background-color: rgba(0, 0, 0, 0); /* transparent background */
-    padding: 15px;
+    padding: 10px;
     border: 0px solid #000000; /*no border */
 }
 
@@ -52,7 +52,7 @@
 .full-width-container {
     width: 100%;
     background-color: rgba(255, 0, 0, 0);
-    border: 1px solid #000000;
+    border: 1px solid #00000000;
     .full-width-container {
     padding-left: 15px;
     padding-right: 15px;

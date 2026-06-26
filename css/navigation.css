@@ -1,9 +1,9 @@
 /* Basic styling for the navigation area */
 #nav-placeholder {
-    background-color: rgba(0, 0, 0, 0.9); /* Darker background for nav */
+    background-color: rgba(0, 0, 0, 0); /* background for nav */
     padding: 10px;
     text-align: center;
-    border-bottom: 1px solid #00ff00; /* Green separator */
+    border-bottom: 2 px solid #000000; /* black separator */
     margin-bottom: 15px;
 }
 
@@ -20,9 +20,9 @@
 }
 
 #nav-placeholder nav a {
-    color: #00ff00;
+    color: #000000;
     text-decoration: none;
-    text-shadow: 0 0 3px #00ff00;
+    text-shadow: 0 0 3px #00ff0000;
 }
 
 #nav-placeholder nav a:hover {

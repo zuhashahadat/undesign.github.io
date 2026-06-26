@@ -1,12 +1,12 @@
+/* Global body defaults — clean-tech version */
 body {
-    font-family: 'Press Start 2P', cursive; /* Retro pixel font with a fallback */
     margin: 0;
     padding: 0;
-    background-color: #00000000; /* white bg */
-    color: #000000; /* black text */
-    line-height: 1.4; /* Improve readability */
-    /* text-shadow: 0 0 5px #00ff00; /* Removed the green text glow */
-    overflow-x: hidden; /* Prevent horizontal scrollbar */
+    background-color: transparent;
+    color: #000000; /* force black text */
+    line-height: 1.4;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif; /* clean-tech body font */
 }
 
 html {
@@ -15,10 +15,6 @@ html {
 
 *, *::before, *::after {
     box-sizing: inherit;
-}
-/* Clean‑Tech Font Combo A */
-body {
-    font-family: 'Inter', sans-serif;
 }
 
 h1, h2, h3, .site-title {

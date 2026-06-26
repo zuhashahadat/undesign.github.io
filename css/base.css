@@ -55,9 +55,9 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
 }
-/* Make middle column match sidebar font + color */
+/* Force middle column to match sidebar styling */
 .main-content,
-.main-content-box {
-    font-family: 'Space Mono', monospace;
-    color: #000000; /* same black as sidebars */
+.main-content * {
+    font-family: 'Space Mono', monospace !important;
+    color: #000000 !important;
 }
